@@ -13,3 +13,9 @@
     background-color: #7dcafd;
     -ms-overflow-style: none;
 }
+
+strong{
+  background: linear-gradient(to right top, #e0c3fc, #4facfe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
