@@ -1,3 +1,14 @@
+* {
+font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+}
+
+@font-face {
+    font-family: 'Pretendard-Light';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
 .marquee {
     color: #ffffff;
     font-size: 96px;
@@ -12,6 +23,13 @@
     padding-bottom: 130px;
     background-color: #7dcafd;
     -ms-overflow-style: none;
+}
+
+h1{
+  text-align:center;
+  font-size: 150px;
+  margin-top: 700px;
+  margin-bottom: 400px;
 }
 
 strong{
